@@ -1,0 +1,83 @@
+---
+title: "Codebook"
+output: pdf_document
+---
+
+The units for all measurements (that is, all columns except for Subject and Activity) are multiples of the standard acceleration of 1g (~9.81 m/s^2).
+
+* Subject:  The subject of the experiment, numbered from 1 to 30.
+* Activity: Levels: LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS
+* tBodyAcc-mean()-X:  Mean body linear acceleration in the X direction (time domain)
+* tBodyAcc-mean()-Y:  Mean body linear acceleration in the Y direction (time domain)
+* tBodyAcc-mean()-Z:  Mean body linear acceleration in the Z direction (time domain)
+* tBodyAcc-std()-X: Standard deviation of body linear acceleration in the X direction (time domain)
+* tBodyAcc-std()-Y: Standard deviation of body linear acceleration in the Y direction (time domain)
+* tBodyAcc-std()-Z: Standard deviation of body linear acceleration in the Z direction (time domain)
+* tGravityAcc-mean()-X:  Mean gravity acceleration in the X direction (time domain)
+* tGravityAcc-mean()-Y:  Mean gravity acceleration in the Y direction (time domain)
+* tGravityAcc-mean()-Z:  Mean gravity acceleration in the Z direction (time domain)
+* tGravityAcc-std()-X: Standard deviation of gravity acceleration in the X direction (time domain)
+* tGravityAcc-std()-Y: Standard deviation of gravity acceleration in the Y direction (time domain)
+* tGravityAcc-std()-Z: Standard deviation of gravity acceleration in the Z direction (time domain)
+* tBodyAccJerk-mean()-X:  Mean body acceleration jerk in the X direction (time domain)
+* tBodyAccJerk-mean()-Y:  Mean body acceleration jerk in the Y direction (time domain)
+* tBodyAccJerk-mean()-Z:  Mean body acceleration jerk in the Z direction (time domain)
+* tBodyAccJerk-std()-X: Standard deviation of body acceleration jerk in the X direction (time domain)
+* tBodyAccJerk-std()-Y: Standard deviation of body acceleration jerk in the Y direction (time domain)
+* tBodyAccJerk-std()-Z: Standard deviation of body acceleration jerk in the Z direction (time domain)
+* tBodyGyro-mean()-X:  Mean body angular velocity in the X direction (time domain)
+* tBodyGyro-mean()-Y:  Mean body angular velocity in the Y direction (time domain)
+* tBodyGyro-mean()-Z:  Mean body angular velocity in the Z direction (time domain)
+* tBodyGyro-std()-X: Standard deviation of body angular velocity in the X direction (time domain)
+* tBodyGyro-std()-Y: Standard deviation of body angular velocity in the Y direction (time domain)
+* tBodyGyro-std()-Z: Standard deviation of body angular velocity in the Z direction (time domain)
+* tBodyGyroJerk-mean()-X:  Mean body angular velocity jerk in the X direction (time domain)
+* tBodyGyroJerk-mean()-Y:  Mean body angular velocity jerk in the Y direction (time domain)
+* tBodyGyroJerk-mean()-Z:  Mean body angular velocity jerk in the Z direction (time domain)
+* tBodyGyroJerk-std()-X: Standard deviation of body angular velocity jerk in the X direction (time domain)
+* tBodyGyroJerk-std()-Y: Standard deviation of body angular velocity jerk in the Y direction (time domain)
+* tBodyGyroJerk-std()-Z: Standard deviation of body angular velocity jerk in the Z direction (time domain)
+* tBodyAccMag-mean(): Mean body linear acceleration magnitude (time domain)
+* tBodyAccMag-std():  Standard deviation of body linear acceleration magnitude (time domain)
+* tGravityAccMag-mean(): Mean gravity acceleration magnitude (time domain)
+* tGravityAccMag-std():  Standard deviation of gravity acceleration magnitude (time domain)
+* tBodyAccJerkMag-mean(): Mean body linear acceleration jerk magnitude (time domain)
+* tBodyAccJerkMag-std():  Standard deviation of body linear acceleration jerk magnitude (time domain)
+* tBodyGyroMag-mean(): Mean body angular velocity magnitude (time domain)
+* tBodyGyroMag-std():  Standard deviation of body abgular velocity magnitude (time domain)
+* tBodyGyroJerkMag-mean(): Mean body angular velocity jerk magnitude (time domain)
+* tBodyGyroJerkMag-std():  Standard deviation of body abgular velocity jerk magnitude (time domain)
+* fBodyAcc-mean()-X:  Mean body linear acceleration in the X direction (frequency domain)
+* fBodyAcc-mean()-Y:  Mean body linear acceleration in the Y direction (frequency domain)
+* fBodyAcc-mean()-Z:  Mean body linear acceleration in the Z direction (frequency domain)
+* fBodyAcc-std()-X: Standard deviation of body linear acceleration in the X direction (frequency domain)
+* fBodyAcc-std()-Y: Standard deviation of body linear acceleration in the Y direction (frequency domain)
+* fBodyAcc-std()-Z: Standard deviation of body linear acceleration in the Z direction (frequency domain)
+* fBodyAccJerk-mean()-X:  Mean body acceleration jerk in the X direction (frequency domain)
+* fBodyAccJerk-mean()-Y:  Mean body acceleration jerk in the Y direction (frequency domain)
+* fBodyAccJerk-mean()-Z:  Mean body acceleration jerk in the Z direction (frequency domain)
+* fBodyAccJerk-std()-X: Standard deviation of body acceleration jerk in the X direction (frequency domain)
+* fBodyAccJerk-std()-Y: Standard deviation of body acceleration jerk in the Y direction (frequency domain)
+* fBodyAccJerk-std()-Z: Standard deviation of body acceleration jerk in the Z direction (frequency domain)
+* fBodyGyro-mean()-X:  Mean body angular velocity in the X direction (frequency domain)
+* fBodyGyro-mean()-Y:  Mean body angular velocity in the Y direction (frequency domain)
+* fBodyGyro-mean()-Z:  Mean body angular velocity in the Z direction (frequency domain)
+* fBodyGyro-std()-X: Standard deviation of body angular velocity in the X direction (frequency domain)
+* fBodyGyro-std()-Y: Standard deviation of body angular velocity in the Y direction (frequency domain)
+* fBodyGyro-std()-Z: Standard deviation of body angular velocity in the Z direction (frequency domain)
+* fBodyAccMag-mean(): Mean body linear acceleration magnitude (frequency domain)
+* fBodyAccMag-std():  Standard deviation of body linear acceleration magnitude (frequency domain)
+* fBodyBodyAccJerkMag-mean(): Mean body linear acceleration jerk magnitude (frequency domain)
+* fBodyBodyAccJerkMag-std():  Standard deviation of body linear acceleration jerk magnitude (frequency domain)
+* fBodyBodyGyroMag-mean(): Mean body angular velocity magnitude (frequency domain)
+* fBodyBodyGyroMag-std():  Standard deviation of body abgular velocity magnitude (frequency domain)
+* fBodyBodyGyroJerkMag-mean(): Mean body angular velocity jerk magnitude (frequency domain)
+* fBodyBodyGyroJerkMag-std():  Standard deviation of body abgular velocity jerk magnitude (frequency domain)
+* angle(tBodyAccMean,gravity):  Angle of body linear acceleration mean to gravity
+* angle(tBodyAccJerkMean),gravityMean): Angle of body linear acceleration jerk mean to gravity mean
+* angle(tBodyGyroMean,gravityMean): Angle of body angular velocity mean to gravity mean
+* angle(tBodyGyroJerkMean,gravityMean): Angle of body angular velocity jerk mean to gravity mean
+* angle(X,gravityMean): Angle of gravity mean to the X direction
+* angle(Y,gravityMean): Angle of gravity mean to the Y direction
+* angle(Z,gravityMean): Angle of gravity mean to the Z direction
+
