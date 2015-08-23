@@ -50,4 +50,5 @@ names(means)[1:2] <- names(data)[1:2] # Restore the grouped column names.
 
 # Save the combined dataset and the derivate dataset.
 write.table(data, "dataset.txt", row.name = FALSE)
-write.table(data, "grouped_means.txt", row.name = FALSE)
+write.table(means, "grouped_means.txt", row.name = FALSE)
+means
