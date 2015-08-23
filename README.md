@@ -3,7 +3,7 @@
 * The training dataset was processed as follows:
 
   * The columns representing the mean and standard deviation measurements were extracted from train/X_train.txt.
-  * The names of the columns were assigned by extracting them from features.txt.
+  * The names of the columns were assigned by extracting them from features.txt (NOTE: I deem them descriptive enough to use without any further editing).
   * The single column from train/y_train.txt was added to the resulting data frame, under the name “Activity”.
   * The single column from train/subject_train.txt was added to the resulting data frame, under the name “Subject”.
 
